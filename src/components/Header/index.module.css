@@ -1,0 +1,27 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  background-color: var(--header-bg-color);
+  border: 1px solid #676767;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 2;
+  margin-right: 30px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
