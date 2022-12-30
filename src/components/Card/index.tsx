@@ -9,7 +9,7 @@ function Card({ detail }: IProps) {
   const { title, imgSrc, desc, demo, github } = detail;
   return (
     <div className={styles.container}>
-      <img src={imgSrc} alt='' className={styles.img} />
+      <img src={imgSrc} alt='' className={styles.img} loading={'lazy'} />
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
         <div className={styles.desc}>{desc}</div>
