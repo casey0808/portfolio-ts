@@ -11,7 +11,7 @@ function Main() {
       <div id='about' className={styles.about}>
         <div className={styles.title}>About Me</div>
         <div className={styles.aboutContent}>
-          <img src={profileImg} className={styles.profileImg} />
+          <img src={profileImg} className={styles.profileImg} loading="lazy" />
           <div>
             <p>
               I am a self-taught front-end developer and luckily got my first
