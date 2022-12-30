@@ -8,8 +8,6 @@ function Header() {
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href='#contact'>Contact</a>
-        {/* <div>LinkedIn</div>
-        <div>Github</div> */}
       </div>
     </div>
   );

@@ -1,28 +1,81 @@
 .container {
-	min-height: 100vh;
-	/* padding-top: 60px; */
+  min-height: 100vh;
+  /* padding-top: 60px; */
 }
 
 .about {
-  height: 100vh;
-  padding-top: 60px;
+  height: 90vh;
+  padding-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aboutContent {
+  margin-top: 100px;
+  display: grid;
+  width: 55vw;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.profileImg {
+  width: auto;
+  height: 40vh;
 }
 
 .projects {
   height: 100vh;
-	/* padding-top: 60px; */
+  /* padding-top: 60px; */
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+}
+
+.title {
   text-transform: uppercase;
+  font-size: 18px;
   font-weight: 600;
 }
 
-.cardContainer {
-  /* background-color: #f9f9f9; */
+.carousel {
   margin-top: 60px;
-  width: 75vw;
   height: 60vh;
+  width: 65vw;
+}
+
+.contact {
+  height: 90vh;
+  padding-bottom: 100px;
+  /* padding-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactContent {
+  margin-top: 100px;
+  width: 450px;
+  height: 300px;
+  /* background: linear-gradient(85deg, #434343, #262626); */
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  border-radius: 16px;
+  color: #fff;
+  padding: 0 60px 30px 50px;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
 }

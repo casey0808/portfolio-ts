@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Courier", Times, serif;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -17,4 +17,5 @@ code {
 :root {
   --main-bg-color: #2A2A2A;
   --header-bg-color: #111;
+  
 }

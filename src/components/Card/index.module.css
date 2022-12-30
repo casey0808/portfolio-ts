@@ -1,5 +1,48 @@
 .container {
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
+  /* width: 75vw; */
+  height: 55vh;
+  /* background-color: #fff; */
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  color: #fff;
+  font-family: 'Courier', Times, serif;
+}
+
+.img {
+  width: auto;
+  height: 52vh;
+}
+
+.content {
+  font-size: 14px;
+  font-weight: 400;
+  width: 25vw;
+  text-align: left;
+  margin: auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.desc {
+  margin-bottom: 50px;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 4px 8px;
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.content a:hover {
+  border: 1px solid lightblue;
+  color: lightblue;
 }
