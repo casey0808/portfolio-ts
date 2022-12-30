@@ -1,10 +1,11 @@
 .header {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 4fr 2fr;
   justify-content: center;
   align-items: center;
+  justify-items: center;
   height: 60px;
-  width: 100vw;
+  width: 100%;
   background-color: var(--header-bg-color);
   border: 1px solid #676767;
   color: #fff;
@@ -12,13 +13,14 @@
   font-weight: 600;
   text-transform: uppercase;
   position: fixed;
+  z-index: 20;
 }
 
 .menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column: 2;
-  margin-right: 30px;
+  grid-column: 3;
+  width: 100%;
 }
 
 .menu a {

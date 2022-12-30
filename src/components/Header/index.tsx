@@ -4,6 +4,7 @@ import styles from './index.module.css';
 function Header() {
   return (
     <div className={styles.header}>
+      <div>Casey CUI</div>
       <div className={styles.menu}>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
