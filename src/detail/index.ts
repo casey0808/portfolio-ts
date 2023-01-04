@@ -1,8 +1,8 @@
 import wesImg from '../assets/images/wes.png';
 import markImg from '../assets/images/markdown_pre.png';
 import pomoImg from '../assets/images/pomo_clock.png';
-import asteroidImg from '../assets/images/asteroid.png';
-import countriesImg from '../assets/images/countries.png';
+import asteroidImg from '../assets/images/asteroid.jpg';
+import countriesImg from '../assets/images/countries.jpg';
 
 interface IDetail {
   title: string;
