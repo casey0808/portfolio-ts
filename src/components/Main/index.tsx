@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../Card';
 import styles from './index.module.css';
 import { Carousel } from 'antd';
-import { wesDetail, markdownDetail, pomoDetail, asteroidDetail, countriesDetail } from '../../detail';
+import { wesDetail, markdownDetail, asteroidDetail, colorGameDetail } from '../../detail';
 import profileImg from '../../assets/images/profile.jpg';
 
 function Main() {
@@ -31,8 +31,8 @@ function Main() {
           <Card detail={wesDetail} />
           <Card detail={asteroidDetail} />
           <Card detail={markdownDetail} />
-          <Card detail={countriesDetail} />
-          <Card detail={pomoDetail} />
+          {/* <Card detail={countriesDetail} /> */}
+          <Card detail={colorGameDetail} />
         </Carousel>
       </div>
       <div id='contact' className={styles.contact}>
