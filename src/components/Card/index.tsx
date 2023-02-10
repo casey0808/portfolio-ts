@@ -9,12 +9,12 @@ function Card({ detail }: IProps) {
   const { title, imgSrc, desc, demo, github } = detail;
   return (
     <div className={styles.container}>
-      <img src={imgSrc} alt='' className={styles.img} loading={'lazy'} />
+      <img src={imgSrc} alt='img' className={styles.img} loading={'lazy'} />
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
         <div className={styles.desc}>{desc}</div>
-        <a href={demo} target="_blank" >Demo</a>
-        <a href={github} target="_blank">GitHub</a>
+        <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
+        <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   );

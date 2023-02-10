@@ -1,6 +1,6 @@
 import wesImg from "../assets/images/wes.png";
 import markImg from "../assets/images/markdown_pre.png";
-import pomoImg from "../assets/images/pomo_clock.png";
+// import pomoImg from "../assets/images/pomo_clock.png";
 import asteroidImg from "../assets/images/asteroid.jpg";
 // import countriesImg from '../assets/images/countries.jpg';
 import colorGameImg from "../assets/images/color_game.png";
@@ -56,7 +56,7 @@ export const asteroidDetail = {
 export const colorGameDetail = {
   title: "Color Game",
   imgSrc: colorGameImg,
-  desc: "A page that displays 6 or 3 squares in different colours and a RGB value. Player plays by clicking each square. Wrong ones will disappear until the player finds the right one corresponding to the value, built with React and React hooks.",
+  desc: "A page that displays 6 or 3 squares in different colours and a RGB value. Player plays by clicking each square. Wrong ones will disappear until the player finds the right one corresponding to the value, built with React.",
   demo: "https://cancui.work/color-game-react/",
   github: "https://github.com/casey0808/color-game-react",
 };
