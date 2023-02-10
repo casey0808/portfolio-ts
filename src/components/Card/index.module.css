@@ -1,7 +1,5 @@
 .container {
-  /* width: 75vw; */
   height: 55vh;
-  /* background-color: #fff; */
   display: grid;
   grid-template-columns: 3fr 2fr;
   color: #fff;
@@ -11,6 +9,15 @@
 .img {
   width: auto;
   height: 52vh;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.img:hover {
+  box-shadow: 1px 1px 10px #fff;
+  transition: 0.2s ease-in-out;
 }
 
 .content {

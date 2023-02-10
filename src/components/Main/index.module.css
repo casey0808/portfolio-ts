@@ -1,6 +1,9 @@
 .container {
   min-height: 100vh;
-  /* padding-top: 60px; */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .about {
@@ -15,7 +18,7 @@
 .aboutContent {
   margin-top: 100px;
   display: grid;
-  width: 55vw;
+  width: 60vw;
   grid-template-columns: 2fr 1fr;
   align-items: center;
   text-align: left;
@@ -44,8 +47,8 @@
 
 .carousel {
   margin-top: 60px;
-  height: 60vh;
-  width: 67vw;
+  height: 62vh;
+  width: 70vw;
 }
 
 .contact {
@@ -73,6 +76,11 @@
   text-align: left;
   justify-content: left;
   font-size: 14px;
+}
+
+.contactContent:hover {
+  transform: scale(1.02) rotate(1deg);
+  transition: 0.3s ease-in-out;
 }
 
 .name {
