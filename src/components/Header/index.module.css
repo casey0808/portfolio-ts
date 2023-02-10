@@ -27,3 +27,7 @@
   color: white;
   text-decoration: none;
 }
+
+.menu a:hover {
+  color: lightblue;
+}
