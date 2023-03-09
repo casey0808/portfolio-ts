@@ -6,8 +6,9 @@
   justify-items: center;
   height: 60px;
   width: 100%;
-  background-color: var(--header-bg-color);
-  border: 1px solid #676767;
+  /* background-color: var(--header-bg-color); */
+  background-color: transparent;
+  /* border: 1px solid #676767; */
   color: #fff;
   font-size: 14px;
   font-weight: 600;
