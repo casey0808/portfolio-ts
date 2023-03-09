@@ -19,7 +19,7 @@
   margin-top: 100px;
   display: grid;
   width: 60vw;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 2fr;
   align-items: center;
   text-align: left;
   line-height: 1.5em;
