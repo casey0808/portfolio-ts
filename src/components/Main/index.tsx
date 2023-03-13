@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Card from '../Card';
 import styles from './index.module.css';
 import { Carousel } from 'antd';
@@ -11,7 +11,7 @@ function Main() {
       <div id='about' className={styles.about}>
         <div className={styles.title}>About Me</div>
         <div className={styles.aboutContent}>
-          <img src={profileImg} className={styles.profileImg} loading="lazy" />
+          <img src={profileImg} className={styles.profileImg} loading="lazy" alt="profileImg" />
           <div>
             <p>
               I am a self-taught front-end developer and luckily got my first
