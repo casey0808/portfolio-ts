@@ -3,7 +3,7 @@ import Card from '../Card';
 import styles from './index.module.css';
 import { Carousel } from 'antd';
 import { wesDetail, markdownDetail, asteroidDetail, colorGameDetail } from '../../detail';
-import profileImg from '../../assets/images/profile.jpg';
+import profileImg from '../../assets/profile.jpg';
 
 function Main() {
   return (
