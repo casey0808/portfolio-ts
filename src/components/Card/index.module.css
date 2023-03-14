@@ -1,14 +1,14 @@
 .container {
-  height: 55vh;
-  display: grid;
-  grid-template-columns: 3fr 2fr;
+  height: 35vh;
+  /* display: grid; */
+  /* grid-template-columns: 3fr 2fr; */
   color: #fff;
   font-family: 'Courier', Times, serif;
 }
 
 .img {
   width: auto;
-  height: 52vh;
+  height: 32vh;
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #fff;
@@ -17,15 +17,17 @@
 
 .img:hover {
   box-shadow: 1px 1px 10px #fff;
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;  
 }
 
 .content {
   font-size: 14px;
   font-weight: 400;
-  width: 25vw;
+  width: 30vw;
+  height: 32vh;
   text-align: left;
   margin: auto;
+  display: none;
 }
 
 .title {

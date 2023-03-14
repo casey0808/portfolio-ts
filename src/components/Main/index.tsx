@@ -1,17 +1,27 @@
 // import React from 'react';
-import Card from '../Card';
-import styles from './index.module.css';
-import { Carousel } from 'antd';
-import { wesDetail, markdownDetail, asteroidDetail, colorGameDetail } from '../../detail';
-import profileImg from '../../assets/profile.jpg';
+import Card from "../Card";
+import styles from "./index.module.css";
+import { Carousel } from "antd";
+import {
+  wesDetail,
+  markdownDetail,
+  asteroidDetail,
+  colorGameDetail,
+} from "../../detail";
+import profileImg from "../../assets/profile.jpg";
 
 function Main() {
   return (
     <div className={styles.container}>
-      <div id='about' className={styles.about}>
+      <div id="about" className={styles.about}>
         <div className={styles.title}>About Me</div>
         <div className={styles.aboutContent}>
-          <img src={profileImg} className={styles.profileImg} loading="lazy" alt="profileImg" />
+          <img
+            src={profileImg}
+            className={styles.profileImg}
+            loading="lazy"
+            alt="profileImg"
+          />
           <div>
             <p>
               I am a self-taught front-end developer and luckily got my first
@@ -25,17 +35,16 @@ function Main() {
           </div>
         </div>
       </div>
-      <div id='projects' className={styles.projects}>
+      <div id="projects" className={styles.projects}>
         <div className={styles.title}>Projects</div>
-        <Carousel className={styles.carousel}>
+        <div className={styles.projectCards}>
           <Card detail={wesDetail} />
           <Card detail={asteroidDetail} />
           <Card detail={markdownDetail} />
-          {/* <Card detail={countriesDetail} /> */}
           <Card detail={colorGameDetail} />
-        </Carousel>
+        </div>
       </div>
-      <div id='contact' className={styles.contact}>
+      <div id="contact" className={styles.contact}>
         <div className={styles.title}>Contact Me</div>
         <div className={styles.contactContent}>
           <div className={styles.name}>Casey CUI</div>
