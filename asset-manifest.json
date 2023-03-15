@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e016047.css",
-    "main.js": "/static/js/main.7eb047af.js",
+    "main.css": "/static/css/main.8e7dae6e.css",
+    "main.js": "/static/js/main.469fa716.js",
     "static/js/787.6994c3f5.chunk.js": "/static/js/787.6994c3f5.chunk.js",
-    "static/media/asteroid.jpg": "/static/media/asteroid.9faf6c64b5e0e1de17fa.jpg",
-    "static/media/color_game.png": "/static/media/color_game.6a6ed2b34c8882c20e47.png",
+    "static/media/wes2.jpg": "/static/media/wes2.56d416dafc80c4c4a00e.jpg",
+    "static/media/asteroids2.jpg": "/static/media/asteroids2.1738f20b31a1212fc6fa.jpg",
+    "static/media/color2.jpg": "/static/media/color2.d28da2f39dd95476bfff.jpg",
     "static/media/profile.jpg": "/static/media/profile.32b67b69db444c8a6fe7.jpg",
-    "static/media/markdown_pre.png": "/static/media/markdown_pre.835d3cf7a7899f5fbbb8.png",
-    "static/media/wes.png": "/static/media/wes.6cfc27412075a8e0d49e.png",
+    "static/media/markdown2.jpg": "/static/media/markdown2.17c58cfc4825d204593a.jpg",
+    "static/media/arrow_right.svg": "/static/media/arrow_right.2765f94c9c8df76217d63fd159523aa6.svg",
     "index.html": "/index.html",
-    "main.1e016047.css.map": "/static/css/main.1e016047.css.map",
-    "main.7eb047af.js.map": "/static/js/main.7eb047af.js.map",
+    "main.8e7dae6e.css.map": "/static/css/main.8e7dae6e.css.map",
+    "main.469fa716.js.map": "/static/js/main.469fa716.js.map",
     "787.6994c3f5.chunk.js.map": "/static/js/787.6994c3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e016047.css",
-    "static/js/main.7eb047af.js"
+    "static/css/main.8e7dae6e.css",
+    "static/js/main.469fa716.js"
   ]
 }
