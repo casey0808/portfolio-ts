@@ -18,8 +18,8 @@ function Card({ detail }: IProps) {
     window.open(link, "_blank");
   };
   return (
-    <div className={styles.container} onClick={() => goToDemo(demo)}>
-      <img src={imgSrc} alt="img" className={styles.img} loading="lazy" />
+    <div className={styles.container}>
+      <img src={imgSrc} alt="img" className={styles.img} loading="lazy" onClick={() => goToDemo(demo)} />
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
         <div className={styles.desc}>{desc}</div>

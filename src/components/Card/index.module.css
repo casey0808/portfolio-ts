@@ -19,10 +19,17 @@
   position: absolute;
 }
 
-.img:hover {
+@media (hover: hover) {
+  .img:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+  }
+}
+
+/* .img:hover {
   transition: 0.2s ease-in-out;
   opacity: 0;
-}
+} */
 
 .content {
   display: flex;
