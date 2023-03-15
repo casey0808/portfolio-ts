@@ -43,15 +43,15 @@
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
-  /* margin-bottom: 100px; */
+  margin-bottom: 30px;
 }
 
 .projectCards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 30px;
-  column-gap: 10px;
-  /* row-gap: 10px; */
+  column-gap: 20px;
+  row-gap: 20px;
   /* height: 80vh; */
   /* width: 90vw; */
   /* row-gap: 10px; */
@@ -81,7 +81,7 @@
   background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
   border-radius: 16px;
   color: #fff;
-  padding: 0 60px 30px 50px;
+  padding: 0 60px 40px 50px;
   display: grid;
   grid-template-rows: 2fr 1fr 1fr 1fr;
   align-items: center;

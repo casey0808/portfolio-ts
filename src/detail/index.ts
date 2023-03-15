@@ -40,7 +40,7 @@ export const markdownDetail = {
 export const asteroidDetail = {
   title: "Asteroid Mining Simulation",
   imgSrc: asteroidImg,
-  desc: "This is an asteroid mining simulation, using react, ts and scss for the frontend, connecting to an express, node, websocket backend server (the backend server is provided by Slingshot at asteroids-backend).",
+  desc: "This is an asteroid mining simulation, using react, typescript and scss for the frontend, connecting to an express, node, websocket backend server (the backend server is provided by Slingshot at asteroids-backend).",
   demo: "https://cancui.work/asteroids-ts/",
   github: "https://github.com/casey0808/asteroids-ts",
 };
