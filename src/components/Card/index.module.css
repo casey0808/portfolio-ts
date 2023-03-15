@@ -1,14 +1,15 @@
 .container {
-  height: 32vh;
-  width: 32vw;
+  /* height: 32vh; */
+  /* width: 32vw; */
   color: #fff;
   font-family: "Courier", Times, serif;
   /* position: relative; */
+  --img-height: 280px;
 }
 
 .img {
-  width: 32vw;
-  height: 32vh;
+  width: calc(var(--img-height) * 1.75);
+  height: var(--img-height);
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #fff;
@@ -28,10 +29,9 @@
   align-items: center;
   font-size: 15px;
   font-weight: 400;
-  width: 32vw;
-  height: 32vh;
+  width: calc(var(--img-height) * 1.75);
+  height: var(--img-height);
   text-align: left;
-  /* margin: auto; */
   padding: 20px 32px;
   box-sizing: border-box;
   border-radius: 8px;
