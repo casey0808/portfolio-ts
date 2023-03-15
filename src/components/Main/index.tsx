@@ -1,7 +1,6 @@
 // import React from 'react';
 import Card from "../Card";
 import styles from "./index.module.css";
-import { Carousel } from "antd";
 import {
   wesDetail,
   markdownDetail,

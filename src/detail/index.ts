@@ -1,9 +1,9 @@
-import wesImg from "../assets/wes2.png";
-import markImg from "../assets/markdown2.png";
+import wesImg from "../assets/wes2.jpg";
+import markImg from "../assets/markdown2.jpg";
 // import pomoImg from "../assets/images/pomo_clock.png";
-import asteroidImg from "../assets/asteroids2.png";
+import asteroidImg from "../assets/asteroids2.jpg";
 // import countriesImg from '../assets/images/countries.jpg';
-import colorGameImg from "../assets/color2.png";
+import colorGameImg from "../assets/color2.jpg";
 
 interface IDetail {
   title: string;
