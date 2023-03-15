@@ -122,9 +122,11 @@
   }
 }
 
-.contactContent:hover {
-  transform: scale(1.02) rotate(1deg);
-  transition: 0.3s ease-in-out;
+@media (hover: hover) {
+  .contactContent:hover {
+    transform: scale(1.02) rotate(1deg);
+    transition: 0.3s ease-in-out;
+  }
 }
 
 .name {
