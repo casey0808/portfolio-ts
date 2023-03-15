@@ -17,13 +17,29 @@
   z-index: 20;
 }
 
+@media (max-width: 1000px) {
+  .header {
+    grid-template-columns: 1fr 3fr;
+    font-size: 14px;
+    max-width: 100%;
+  }
+}
+
 .menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column: 3;
+  column-gap: 2px;
   width: 100%;
   justify-items: center;
   align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .menu {
+    grid-column: 2;
+    width: 100%;
+  }
 }
 
 .menu a {

@@ -5,6 +5,8 @@
   font-family: "Courier", Times, serif;
   /* position: relative; */
   --img-height: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img {
@@ -72,4 +74,34 @@
   height: 24px;
   width: 100%;
   margin-top: 6%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    --width: 85%;
+    width: var(--width);
+    height: calc(var(--width) / 1.5);
+    /* text-align: center; */
+    margin: auto;
+    position: relative;
+  }
+
+  .content {
+    --width: 80%;
+    width: var(--width);
+    height: calc(var(--width) / 1.5);
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    color: #fff;
+  }
 }
