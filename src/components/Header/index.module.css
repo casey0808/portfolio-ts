@@ -27,7 +27,7 @@
 
 .menu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column: 3;
   column-gap: 2px;
   width: 100%;

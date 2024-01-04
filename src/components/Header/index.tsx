@@ -1,5 +1,5 @@
 // import React from 'react';
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 function Header() {
   return (
@@ -8,7 +8,13 @@ function Header() {
       <div className={styles.menu}>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href='#contact'>Contact</a>
+        <a href="#contact">Contact</a>
+        <a
+          href="https://www.linkedin.com/in/cancui1208/"
+          target="_blank"
+          rel="noreferrer">
+          LinkedIn
+        </a>
       </div>
     </div>
   );
