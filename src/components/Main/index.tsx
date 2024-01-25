@@ -10,8 +10,10 @@ import {
 // import profileImg from "../../assets/profile.jpg";
 
 function Main() {
+  // const profileLink = "https://gateway.pinata.cloud/ipfs/QmPedPPiAvERizxeJxDwJmcjAnHjdjDMKHYvYexn7bpHEz?_gl=1*13jpj8r*_ga*ZGIwNjQ0YmEtNzk0Yi00NzAwLWE0ODQtZTU0OGU4MjkzM2Vm*_ga_5RMPXG14TE*MTY3ODg3MjkwMy4xLjEuMTY3ODg3MzgyOS41My4wLjA.";
   const profileLink =
-    "https://gateway.pinata.cloud/ipfs/QmPedPPiAvERizxeJxDwJmcjAnHjdjDMKHYvYexn7bpHEz?_gl=1*13jpj8r*_ga*ZGIwNjQ0YmEtNzk0Yi00NzAwLWE0ODQtZTU0OGU4MjkzM2Vm*_ga_5RMPXG14TE*MTY3ODg3MjkwMy4xLjEuMTY3ODg3MzgyOS41My4wLjA.";
+    "https://res.cloudinary.com/dhmmmen4e/image/upload/v1706147898/portfolio/QmPedPPiAvERizxeJxDwJmcjAnHjdjDMKHYvYexn7bpHEz_s6wpyf.jpg";
+
   return (
     <div className={styles.container}>
       <div id="about" className={styles.about}>
